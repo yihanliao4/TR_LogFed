@@ -1,0 +1,16 @@
+dataset,model,seed,setting,LAD_F1,MIA_AUC,MIA_P,MIA_R,MIA_FPR,MIA_F1
+Thunderbird,neurallog,0,central,0.9567,0.6740,0.5924,0.8760,0.6027,0.7068
+Thunderbird,neurallog,0,fed,0.9563,0.5123,0.5103,0.5345,0.5131,0.5221
+Thunderbird,neurallog,0,fed_dp02,0.9563,0.5123,0.5101,0.5472,0.5255,0.5280
+Thunderbird,neurallog,0,fed_dp04,0.9562,0.5126,0.5135,0.4350,0.4121,0.4710
+Thunderbird,neurallog,0,fed_dp05,0.9564,0.5133,0.5142,0.4587,0.4335,0.4849
+Thunderbird,neurallog,1,central,0.9567,0.6688,0.5892,0.8772,0.6115,0.7049
+Thunderbird,neurallog,1,fed,0.9565,0.5132,0.5111,0.6046,0.5783,0.5539
+Thunderbird,neurallog,1,fed_dp02,0.9565,0.5132,0.5105,0.6141,0.5889,0.5575
+Thunderbird,neurallog,1,fed_dp04,0.9565,0.5139,0.5115,0.5692,0.5436,0.5388
+Thunderbird,neurallog,1,fed_dp05,0.9566,0.5139,0.5138,0.5434,0.5142,0.5282
+Thunderbird,neurallog,2,central,0.9566,0.6697,0.5912,0.8771,0.6066,0.7063
+Thunderbird,neurallog,2,fed,0.9565,0.5099,0.5099,0.5009,0.4815,0.5054
+Thunderbird,neurallog,2,fed_dp02,0.9565,0.5104,0.5093,0.5132,0.4944,0.5112
+Thunderbird,neurallog,2,fed_dp04,0.9565,0.5104,0.5073,0.6815,0.6619,0.5816
+Thunderbird,neurallog,2,fed_dp05,0.9563,0.5105,0.5100,0.4576,0.4396,0.4824
