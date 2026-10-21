@@ -179,10 +179,3 @@ python make_figures.py
   intentionally not comparable to the fused imbalanced F1 of the detection
   tables; only the relative FedAvg vs. Trimmed Mean behavior is meaningful.
 
-## 8. Citation
-
-If you use this code, please cite the paper (BibTeX to be filled in).
-
-## 9. License
-
-Released under the MIT License; see [LICENSE](LICENSE).
