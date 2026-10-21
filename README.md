@@ -1,6 +1,6 @@
 # LogFed: Privacy-Preserving Federated Log Anomaly Detection
 
-Official code for the paper **"LogFed: …"** (TR 2025 resubmission). LogFed is
+Official code for the paper **"Enhancing Reliability of Log Anomaly Detection via Privacy-Preserving Federated Learning"**. LogFed is
 a unified next-event-prediction framework for log anomaly detection (LAD)
 under federated learning (FL), with four backbones (DeepLog, LogAnomaly,
 NeuralLog, OneLog), a black-box membership-inference-attack (MIA) privacy
