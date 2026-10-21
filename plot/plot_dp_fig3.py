@@ -1,18 +1,3 @@
-"""Regenerate the post-training Gaussian utility phase-transition figure
-(the paper's Fig. 3) from the CORRECT (RMS-relative) dp_detection.csv.
-
-Noise model: W <- W + sigma * RMS(W) * N. The correct grid is
-sigma in 0.00..0.40 step 0.05 and the safe points are
-BGL 0.10 / HDFS 0.20 / Thunderbird 0.02.
-
-IMPORTANT: an older experiment used an ABSOLUTE std (W <- W + sigma*N),
-whose csv spans sigma 0.000-0.030 and collapses near 0.01. Do NOT use that
-file. This script sanity-checks the csv before plotting and aborts if it
-looks like the old absolute-std file.
-
-Usage:
-  python plot_dp_fig3.py --csv dp_detection.csv
-"""
 import argparse
 import pandas as pd
 import numpy as np
