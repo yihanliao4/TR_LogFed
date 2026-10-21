@@ -46,9 +46,7 @@ logfed/
 │   ├── run_robust_seeds.sh    # sign-flip robustness over 3 seeds, multi-GPU
 │   ├── run_finding5.sh        # efficiency / end-to-end timing
 │   └── finding5_e2e.py        # CPU post-processing for the efficiency table
-├── plot/
-│   ├── plot_dp_fig3.py        # Fig. 3 (Gaussian phase transition, with data checks)
-│   └── plot_fig6_robust.py    # Fig. 6 (3-seed mean +/- std sign-flip robustness)
+|
 └── results/revision/          # small result CSVs shipped for figure/table reproduction
 ```
 
@@ -127,18 +125,15 @@ bash scripts/run_mia_fast.sh 0 1 2 3
 python dp_detection.py --rounds 50 --le 3
 python dp_sgd.py
 python mia_dp.py
-python plot/plot_dp_fig3.py --csv results/revision/dp_detection.csv
 ```
 
 The Gaussian mechanism is RMS-relative, `W <- W + sigma RMS(W) N`, with
-`sigma in {0.0,...,0.4}`; `plot_dp_fig3.py` aborts if it is pointed at the
-older absolute-std (`0.000-0.030`) file.
+`sigma in {0.0,...,0.4}`.
 
 ### 5.4 Sign-flip robustness (Fig. 6)
 
 ```bash
 bash scripts/run_robust_seeds.sh 0 1 2 3
-python plot/plot_fig6_robust.py --csvdir robust --out fig6_robust
 ```
 
 The attack is a Byzantine **update sign-flip with amplification**
